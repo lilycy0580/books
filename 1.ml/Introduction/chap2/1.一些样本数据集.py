@@ -14,7 +14,7 @@ if __name__ == '__main__':
     plt.legend(["Class 0", "Class 1"], loc=4)
     plt.xlabel("First feature")
     plt.ylabel("Second feature")
-    plt.savefig("./../img/2.监督学习/2.forge数据集的散点图.png")
+    plt.savefig("./../img/2.监督学习/2.forge数据集的散点图.png",dpi=1080)
     plt.show()
 
     # wave 回归算法
@@ -23,7 +23,7 @@ if __name__ == '__main__':
     plt.ylim(-3, 3)
     plt.xlabel("Feature")
     plt.ylabel("Target")
-    plt.savefig("./../img/2.监督学习/3.wave数据集的图像,x轴表示特征,y轴表示回归目标.png")
+    plt.savefig("./../img/2.监督学习/3.wave数据集的图像,x轴表示特征,y轴表示回归目标.png",dpi=1080)
     plt.show()
 
     # 癌症数据集

@@ -108,7 +108,7 @@ if __name__ == '__main__':
     # 方式二:固定alpha值,但改变训练数据量
     mglearn.plots.plot_ridge_n_samples()
     plt.legend(loc=(0.15, 1.03), ncol=2, fontsize=9)
-    plt.savefig("./../img/2.监督学习/13.岭回归和线性回归在波士顿房价数据集上的学习曲线.png",dpi=300)
+    plt.savefig("./../img/2.监督学习/13.岭回归和线性回归在波士顿房价数据集上的学习曲线.png",dpi=1080)
     plt.show()
 
     """

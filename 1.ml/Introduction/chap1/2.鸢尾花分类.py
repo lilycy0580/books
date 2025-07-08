@@ -42,7 +42,7 @@ if __name__ == '__main__':
                                s=60,
                                alpha=0.8,
                                cmap=mglearn.cm3)
-    plt.savefig('./../img/1.引言/2.Iris数据集的散点图矩阵,按类别标签着色.png')
+    plt.savefig('./../img/1.引言/2.Iris数据集的散点图矩阵,按类别标签着色.png',dpi=1080)
     plt.show()
 
     # 4.构建模型:K近邻算法
