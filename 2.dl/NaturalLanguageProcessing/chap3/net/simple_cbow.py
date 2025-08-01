@@ -6,8 +6,8 @@ class SimpleCBOW:
     def __init__(self, vocab_size, hidden_size):
         V, H = vocab_size, hidden_size                      # 词汇的个数,中间层神经元个数
         # 初始化权重
-        W_in = 0.01 * np.random.randn(V, H).astype('f')
-        W_out = 0.01 * np.random.randn(H, V).astype('f')
+        W_in = 0.01 * np.random.randn(V, H).astype('f')     # 输入侧权重:行方向上排列单词向量
+        W_out = 0.01 * np.random.randn(H, V).astype('f')    # 输出侧权重:列方向上排列单词向量  不同于chap4 improved_cbow
 
         # 生成层
         self.in_layer0 = MatMul(W_in)
