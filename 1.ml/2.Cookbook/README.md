@@ -16,5 +16,5 @@ chap13-20 监督学习
 
 chap21 保存模型
 
-![](D:\books\1.ml\Cookbook\img\0.png)
+![](.\img\0.png)
 
