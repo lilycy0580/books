@@ -16,5 +16,5 @@ chap13-20 监督学习
 
 chap21 保存模型
 
-![](.\img\0.png)
+<img src=".\img\0.png"/>
 
