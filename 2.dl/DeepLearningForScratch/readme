@@ -1,0 +1,8 @@
+code源码地址:
+    https://www.ituring.com.cn/book/1921
+
+conda环境:
+    D:\software\anaconda3\envs\dl_py_cv
+    D:/software/anaconda3/envs/dl_py_cv/python.exe
+
+    conda create --name dl_py_cv python=3.8
