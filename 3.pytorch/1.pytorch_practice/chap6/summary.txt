@@ -1,0 +1,33 @@
+
+
+        2.高级索引
+            1.Tensor的底层实现
+                Tensor的底层使用c/c++实现,用于存储数据,及定义对数据进行操作
+
+                Tensor vs Python list:
+                    Tensor 利用一个连续的内存区域去存储数据,这些数据都未经过封装
+                    list   list中的每个数据都会被封装成PyObject对象,每个对象独立分配内存,离散地存储在内存当中
+
+                PyTorch底层使用Storage类来管理Tensor的内存区域,它使用一个一维数组来存储数据
+                    Tensor通过修改内部的size,storage_offset,stride等属性让这个一维数组"看起来像一个多维数组"
+                    实际上这些Tensor指向同一个Storage区域
+
+                size,控制Tensor每个维度上的取值范围 切片操作,reshape操作等都会修改Tensor实例的size属性
+                storage_offset,Tensor实例起始元素对应存储区Storage的索引
+                stride,一个元组,stride的第k个元素表示Tensor的第k个维度中两个元素之间的内存间隔
+                
+                总结:
+                    对Tensor的许多操作都可以通过改变Tensor的stride和offset属性实现,更改这些属性前后的Tensor共享同一个存储区域
+
+            2.整数数组索引
+
+
+            3.布尔数组索引
+
+
+            4.高级索引实现卷积
+
+        3.einsum/einops
+
+
+
