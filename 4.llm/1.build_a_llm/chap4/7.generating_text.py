@@ -13,7 +13,7 @@ def generate_text_simple(model, idx, max_new_tokens, context_size):
     for _ in range(max_new_tokens):
         idx_cond = idx[:, -context_size:]
 
-        with t.no_grad():
+        with t.no_grad():                                       # 推理阶段使用,禁用梯度计算,以提升性能并防止不必要的内存消耗
             logits = model(idx_cond)                            # torch.Size([1, 4, 50257])
         logits = logits[:, -1, :]                               # torch.Size([1, 4, 50257])--->torch.Size([1, 50257])
 
