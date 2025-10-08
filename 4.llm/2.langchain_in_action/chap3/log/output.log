@@ -1,0 +1,15 @@
+
+
+[1m> Entering new LLMChain chain...[0m
+Prompt after formatting:
+[32;1m[1;3m1 + 1 = [0m
+
+[1m> Finished chain.[0m
+2025-10-08 13:55:36 | INFO | 2
+
+
+[1m> Entering new LLMChain chain...[0m
+Prompt after formatting:
+[32;1m[1;3m1 + 1 = [0m
+
+[1m> Finished chain.[0m
