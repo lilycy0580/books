@@ -1,12 +1,27 @@
-"# books" 
+Java
 
-list:
+​	TODO
 
-​	pytorch
+Python
 
-​	ml
+​	1.pytorch
 
-​	dl
+ 	    2.ml
 
-​	llm
+​	3.dl
 
+​	4.rl_TODO
+
+​	5.multimodal_TODO
+
+​	6.langchain
+
+​	7.llm
+
+​	8.deepseek
+
+​	9.qwen_TODO
+
+​	10.rag
+
+​	
